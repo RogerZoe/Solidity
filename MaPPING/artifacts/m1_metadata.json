@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "acc_info",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "place",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "donate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_place",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_donate",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MaPPING/M1.sol": "m1"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MaPPING/M1.sol": {
+			"keccak256": "0xdfc31f6de7ae268aa30c5258be4a83f5eb3bb7bd6d572e2c3c7e01258f895c01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://85db63c49ccc7b33d0402d1ce560b3ecdb368407dd51d04974a848b03da51f56",
+				"dweb:/ipfs/QmTafKnGBFQEoBksWZUAfJ68ZicSRTZHaBEY6wm5m37f7m"
+			]
+		}
+	},
+	"version": 1
+}
