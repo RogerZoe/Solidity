@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MODIFERES/Override.sol": "Check"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MODIFERES/Override.sol": {
+			"keccak256": "0x30e2b754e2534fad50c4d0f23299ba35fe2130e588fc034e5f10cce62ef1202f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e334532af10d421a7a42d781e8a8e9099e2aebeefe5110865f638feb5bd4c0a2",
+				"dweb:/ipfs/Qmd19RuVvpMKnX5S9SZTJvony1evBfraxLGNYtSQsHcqHH"
+			]
+		}
+	},
+	"version": 1
+}
